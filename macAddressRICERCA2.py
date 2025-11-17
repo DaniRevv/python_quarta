@@ -15,7 +15,8 @@ def main():
     for m, v in zip(macAddress, vendor):
         if m[0:8] == mac[0:8]:
             print(f"Il produttore è {v}")
-
+            
+# STAMPARE LA DATA DI PRODUZIONE
 
 
 
